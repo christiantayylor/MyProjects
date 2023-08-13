@@ -1,0 +1,299 @@
+$UserCredential = Get-Credential
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri http://MWEXCH16.stcol.com/PowerShell/ -Authentication Kerberos -Credential $UserCredential
+[System.Collections.ArrayList]$UserPrincipalArray = @()
+$LO = New-MsolLicenseOptions -AccountSkuId reseller-account:STANDARDPACK -DisabledPlans STREAM_O365_E1, Deskless, FLOW_O365_P1, POWERAPPS_O365_P1, PROJECTWORKMANAGEMENT, SWAY, YAMMER_ENTERPRISE, MCOSTANDARD
+Import-PSSession $Session
+
+$P = Import-Csv Users.csv
+
+
+$BeloitDEF = "OU=DEF Collectors,OU=Beloit Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$BeloitEBO = "OU=EBO Collectors,OU=Beloit Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$MadisonEBO = "OU=EBO Collections,OU=Collections,OU=Madison Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$MadisonDEF = "OU=Regular Collections,OU=Collections,OU=Madison Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$MilwaukeeEBO = "OU=EBO Collectors,OU=Milwaukee Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$MilwaukeeDEF = "OU=Regular Collectors,OU=Milwaukee Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$ChicagoDEF = "OU=Collections,OU=Chicago Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$BeloitEBORemote = "OU=EBO,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$BeloitDEFRemote = "OU=DEF,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$MadisonEBORemote = "OU=EBO,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$MadisonDEFRemote = "OU=DEF,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$MilwaukeeEBORemote = "OU=EBO,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$MilwaukeeDEFRemote = "OU=DEF,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$ChicagoDEFRemote = "OU=DEF,OU=Agents,OU=Work At Home Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$MadisonCashApps = "OU=Cash Applications,OU=Madison Users,OU=STCOL-Madison,DC=stcol,DC=com"
+$BeloitClientServices = "OU=Client Services,OU=Beloit Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$MadisonClientServices = "OU=Client Services,OU=Madison Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$MilwaukeeClientServices = "OU=Client Services,OU=Milwaukee Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+$ChicagoClientServices = "OU=Client Services,OU=Chicago Users,OU=STCOL-MADISON,DC=stcol,DC=com"
+
+
+
+$BeloitDEFGroups = @("Beloit-Collectors","STCOL-Beloit Remote","DEF Beloit Agents", "Xen-Win10Agent-V2")
+$BeloitEBOGroups = @("EBO Beloit","EBO_Collectors","STCOL-Beloit Remote","Beloit-Collectors")
+$MadisonEBOGroups = @("EBO Madison","Madison EBO Reps","STCOL-Madison Remote","EBO_Collectors", "Xen-Win10Agent-V2")
+$MadisonDEFGroups = @("DEF Madison Agents","Madcollect","STCOL-Madison Remote", "Xen-Nutanix-Onsite")
+$MilwaukeeEBOGroups = @("EBO Milwaukee","Milwaukee EBO Reps","STCOL-Milwaukee Remote")
+$MilwaukeeDEFGroups = @("DEF Milwaukee Agents","Milwaukee-Collectors","STCOL-Milwaukee Remote", "Xen-Win10Agent-V2")
+$ChicagoDEFGroups = @("Chicago-Collectors","DEF Chicago Agents","STCOL-Chicago Remote", "Xen-Win10Agent-V2")
+$BeloitEBORemoteGroups = @("EBO Beloit", "EBO_Collectors", "STCOL-Beloit Remote", "Beloit-Collectors", "Xen-Win10Agent-V2")
+$BeloitDEFRemoteGroups = @("Beloit-Collectors","STCOL-Beloit Remote","DEF Beloit Agents", "Xen-Win10Agent-V2")
+$MadisonEBORemoteGroups = @("EBO Madison","Madison EBO Reps","STCOL-Madison Remote","EBO_Collectors", "Xen-Win10Agent-V2")
+$MadisonDEFRemoteGroups = @("DEF Madison Agents","Madcollect","STCOL-Madison Remote", "Xen-Win10Agent-V2")
+$MilwaukeeEBORemoteGroups = @("EBO Milwaukee","Milwaukee EBO Reps","STCOL-Milwaukee Remote","Xen-Win10Agent-V2")
+$MilwaukeeDEFRemoteGroups = @("DEF Milwaukee Agents","Milwaukee-Collectors","STCOL-Milwaukee Remote", "Xen-Win10Agent-V2")
+$ChicagoDEFRemoteGroups = @("Chicago-Collectors","DEF Chicago Agents","STCOL-Chicago Remote-11042311606","Xen-Win10Agent-V2")
+$MadisonCashAppsGroups = @("Accounting","accting","Artiva Drives","Cashiers","P-Drive","STCOL-Madison Remote","TrainingGroup","U-Drive")
+$BeloitClientServicesGroups = @("STCOL-Beloit Remote","Client Services","Client Services Reps-1-1792702196","ClientServicesTeam")
+$MadisonClientServicesGroups = @("STCOL-Madison Remote","Client Services","Client Services Reps-1-1792702196","ClientServicesTeam")
+$MilwaukeeClientServicesGroups = @("STCOL-Milwaukee Remote","Client Services","Client Services Reps-1-1792702196","ClientServicesTeam")
+$ChicagoClientServicesGroups = @("STCOL-Chicago Remote","Client Services","Client Services Reps-1-1792702196","ClientServicesTeam")
+
+
+
+$P | ForEach-Object{
+	
+	$FirstName,$LastName = $_.name.split(' ')
+	$SamAccountName = $FirstName + $LastName.SubString(0,1)
+
+	$User = Get-ADUser -LDAPFilter "(sAMAccountName=$SamAccountName)"
+	$counter = 1
+	do
+	{
+	If ($User -eq $Null) {break}
+	Else {
+		If($counter -gt 1){$SamAccountName = $SamAccountName.Substring(0,$SamAccountName.Length-1)} 
+	$counter = $counter + 1
+	$SamAccountName = $SamAccountName = $FirstName + $LastName.SubString(0,$counter)
+	$User = Get-ADUser -LDAPFilter "(sAMAccountName=$SamAccountName)"
+
+	}
+	}until($User -eq $Null)
+	$counter = 1
+
+	$UserPrincipalName = $SamAccountName + "@stcol.com"
+	$UserPrincipalArray.Add($UserPrincipalName)
+
+
+	$Mailbox = $_.name 
+	$RemoteRoutingAddress = $SamAccountName + "@stcol.onmicrosoft.com" 
+
+	If ($_.department -eq 'DEF') {
+
+	$ADdescription = 'Collection Specialist'
+	$ADdepartment = 'Production'
+	$ADTitle = 'Collection Specialist'
+	}  ElseIf ($_.department -eq 'EBO'){
+	$ADdescription = 'EBO Customer Service Representative'
+	$ADdepartment = 'EBO'
+	$ADTitle = 'EBO Customer Service Representative'
+
+	} ElseIf ($_.department -eq 'CashApps'){
+	$ADdescription = 'Financial Services Cashier'
+	$ADdepartment = 'Accounting'
+	$ADTitle = 'Financial Services Cashier'
+
+	} ElseIf ($_.department -eq 'Client Services'){
+	$ADdescription = 'Client Service Representative'
+	$ADdepartment = 'Client Services'
+	$ADTitle = 'Client Service Representative'
+
+	} 
+
+	If ($_.office -eq 'Beloit') {
+
+	$ADOffice = 'Beloit'
+
+	} ElseIf ($_.office -eq 'Chicago') {
+
+	$ADOffice = 'Chicago'
+
+	}  ElseIf ($_.office -eq 'Madison') {
+
+	$ADOffice = 'Madison'
+
+	}ElseIf ($_.office -eq 'Milwaukee') {
+
+	$ADOffice = 'Milwaukee'
+	
+	}ElseIf ($_.office -eq 'Beloit Remote') {
+	
+	$ADOffice = 'Beloit'
+
+    } ElseIf ($_.office -eq 'Milwaukee Remote') {
+	
+	$ADOffice = 'Milwaukee'
+
+    }ElseIf ($_.office -eq 'Madison Remote') {
+	
+	$ADOffice = 'Madison'
+
+    }ElseIf ($_.office -eq 'Chicago Remote') {
+	
+	$ADOffice = 'Chicago'
+	
+	}
+
+	If ($_.office -eq 'Beloit' -AND $_.department -eq 'DEF') {
+
+	$OU = [string]$BeloitDEF
+	$Groups = $BeloitDEFGroups
+
+	} ElseIf ($_.office -eq 'Chicago' -AND $_.department -eq 'DEF') {
+
+	$OU = [string]$ChicagoDEF
+	$Groups = $ChicagoDEFGroups
+
+	} ElseIf ($_.office -eq 'Madison' -AND $_.department -eq 'DEF') {
+
+	$OU = [string]$MadisonDEF
+	$Groups = $MadisonDEFGroups
+
+	} ElseIf ($_.office -eq 'Milwaukee' -AND $_.department -eq 'DEF') {
+
+	$OU = [string]$MilwaukeeDEF
+	$Groups = $MilwaukeeDEFGroups
+
+	} ElseIf ($_.office -eq 'Beloit' -AND $_.department -eq 'EBO') {
+
+	$OU = [string]$BeloitEBO
+	$Groups = $BeloitEBOGroups
+
+	} ElseIf ($_.office -eq 'Madison' -AND $_.department -eq 'EBO') {
+
+	$OU = [string]$MadisonEBO
+	$Groups = $MadisonEBOGroups
+
+	} ElseIf ($_.office -eq 'Milwaukee' -AND $_.department -eq 'EBO') {
+
+	$OU = [string]$MilwaukeeEBO
+	$Groups = $MilwaukeeEBOGroups
+
+	} ElseIf ($_.office -eq 'Beloit Remote' -AND $_.department -eq 'EBO') {
+	
+	$OU = [string]$BeloitEBORemote
+	$Groups = $BeloitEBORemoteGroups
+
+	} ElseIf ($_.office -eq 'Beloit Remote' -AND $_.department -eq 'DEF') {
+	
+	$OU = [string]$BeloitDEFRemote
+	$Groups = $BeloitDEFRemoteGroups
+
+	} ElseIf ($_.office -eq 'Madison Remote' -AND $_.department -eq 'EBO') {
+	
+	$OU = [string]$MadisonEBORemote
+	$Groups = $MadisonEBORemoteGroups
+
+	} ElseIf ($_.office -eq 'Madison Remote' -AND $_.department -eq 'DEF') {
+	
+	$OU = [string]$MadisonDEFRemote
+	$Groups = $MadisonDEFRemoteGroups
+
+	} ElseIf ($_.office -eq 'Milwaukee Remote' -AND $_.department -eq 'EBO') {
+	
+	$OU = [string]$MilwaukeeEBORemote
+	$Groups = $MilwaukeeEBORemoteGroups
+
+	} ElseIf ($_.office -eq 'Milwaukee Remote' -AND $_.department -eq 'DEF') {
+	
+	$OU = [string]$MilwaukeeDEFRemote
+	$Groups = $MilwaukeeDEFRemoteGroups
+
+	} ElseIf ($_.office -eq 'Chicago Remote' -AND $_.department -eq 'DEF') {
+	
+	$OU = [string]$ChicagoDEFRemote
+	$Groups = $ChicagoDEFRemoteGroups
+
+	} ElseIf ($_.office -eq 'Madison' -AND $_.department -eq 'CashApps') {
+	
+	$OU = [string]$MadisonCashApps
+	$Groups = $MadisonCashAppsGroups
+
+	} ElseIf ($_.office -eq 'Beloit' -AND $_.department -eq 'Client Services') {
+
+	$OU = [string]$BeloitClientServices
+	$Groups = $BeloitClientServicesGroups
+
+	} ElseIf ($_.office -eq 'Madison' -AND $_.department -eq 'Client Services') {
+
+	$OU = [string]$MadisonClientServices
+	$Groups = $MadisonClientServicesGroups
+
+	} ElseIf ($_.office -eq 'Milwaukee' -AND $_.department -eq 'Client Services') {
+
+	$OU = [string]$MilwaukeeClientServices
+	$Groups = $MilwaukeeClientServicesGroups
+
+	} ElseIf ($_.office -eq 'Chicago' -AND $_.department -eq 'Client Services') {
+
+	$OU = [string]$ChicagoClientServices
+	$Groups = $ChicagoClientServicesGroups
+	}
+
+	$ADProfilepath = "\\mwfps01\users\" + $SamAccountName
+
+	New-ADUser -Name $_.name -GivenName $FirstName -Surname $LastName -SamAccountName $SamAccountName -DisplayName $_.name -UserPrincipalName $UserPrincipalName -OfficePhone --- -path $OU -description $ADdescription -department $ADdepartment -title $ADTitle -office $ADOffice -AccountPassword (ConvertTo-SecureString -AsPlainText "August072023!" -Force) -Enabled 1
+
+	If ($_.department -eq 'CashApps' -or $_.department -eq 'Client Services'){
+	Set-ADuser $SamAccountName -HomeDirectory $ADProfilePath -HomeDrive H:}
+
+
+	If ($_.supervisor -ne $Null) {
+	Set-AdUser -Identity $SamAccountName -Manager $_.supervisor
+	}
+	
+	
+	If ($_.department -eq 'DEF') {
+	Add-AdGroupMember -Identity Xen-Nutanix-Onsite -Member $SamAccountName
+	} ElseIf ($_.office -eq 'Madison' -AND $_.department -eq 'EBO') {
+	Add-AdGroupMember -Identity Xen-Nutanix-Onsite -Member $SamAccountName
+	} ElseIf ($_.office -eq 'Milwaukee' -AND $_.department -eq 'EBO') {
+	Add-AdGroupMember -Identity Xen-Nutnaix-Onsite -Member $SamAccountName
+	} ElseIf ($_.office -eq 'Marinette' -AND $_.department -eq 'EBO') {
+	Add-AdGroupMember -Identity Xen-Nutanix-Remote -Member $SamAccountName
+	}
+	
+	Add-ADPrincipalGroupMembership -identity $SamAccountName -memberof $Groups
+	
+
+	
+	Start-Sleep -s 3
+	
+
+	Enable-RemoteMailbox $mailbox -RemoteRoutingAddress $RemoteRoutingAddress
+}
+
+$S = New-PSSession -ComputerName MWDSYNCS01
+Invoke-Command -Session $s {Import-Module ADSync}
+Invoke-Command -Session $s {Start-ADSyncSyncCycle -PolicyType Delta}
+
+
+$UserCredential = Get-Credential
+Connect-MsolService -Credential $UserCredential
+
+Start-Sleep -s 45
+
+foreach($pname in $UserPrincipalArray){
+	$description = Get-AdUser -Identity $pname.Substring(0,$pname.Length-10) -Properties Description | Select-Object -ExpandProperty Description
+	If ($description -eq 'Financial Services Cashier' -or $description -eq 'Client Service Representative'){
+	Set-MsolUser -UserPrincipalName $pname -usagelocation US
+	Set-MsolUserLicense -UserPrincipalName $pname -AddLicenses reseller-account:ENTERPRISEPACK
+	Set-MsolUserLicense -UserPrincipalName $pname -AddLicenses reseller-account:AAD_PREMIUM
+	} Else{
+	Set-MsolUser -UserPrincipalName $pname -usagelocation US
+	Set-MsolUserLicense -UserPrincipalName $pname -AddLicenses reseller-account:STANDARDPACK -licenseoptions $LO
+	Set-MsolUserLicense -UserPrincipalName $pname -AddLicenses reseller-account:AAD_PREMIUM}
+}
+
+
+# $ConfirmedSetupUsers = New-Object -TypeName PSObject
+
+# foreach($pname in $UserPrincipalArray)
+ # {
+#	$ConfirmedSetupUsers | Add-Member -MemberType NoteProperty -Name Usernames -value $pname
+# }
+
+
+#$ConfirmedSetupUsers | Export-Csv -Path .\Users-Completed.csv -NoTypeInformation
+# $VerifiedUsernames = @{ Usernames = $UserPrincipalArray}
+# $VerifiedUsernames | Select-Object -Property Usernames | Export-Csv -Path .\Users-Completed.csv -NoTypeInformation
