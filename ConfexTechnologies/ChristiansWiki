@@ -1,0 +1,310 @@
+<!-- COLORS USED ON THIS WIKI:
+     TITLES:     #000080
+     HEADERS:    #4682B4
+     HIGHLIGHTS: #AEE8F5
+     LINKS:      #6495ed
+--->
+<!--ABOUT-->
+<html><details close class="details h2expand"><summary style="background-color:#FFFFFF;></html> 
+<span style="color:#3CB371; background:#98FB98; font-size: xx-large"><b>About</b></span>
+<html></summary></html><br>
+<span style="color:#000080; font-size: x-large"><b><u>Support Team 1</u></b></span><br>
+<br>
+Christian is a member of Support Team 1, along with Donna, Danielle, and Kim.<br>
+As a member of Support Team 1, Christian can often be found editing [https://powwow.int.confex.com/doc/Wiki/Support_Team_1/ <span style="color:#6495ed">this wiki].<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Team 1 Contact Information</u></b></span><br>
+<br>
+<span style="background:#AEE8F5"><b>Team 1 Contacts:</b></span><br>
+*[mailto:dbrousseau@confex.com Donna] (team lead)<br>
+*[mailto:dbigbie@confex.com Danielle]<br>
+*[mailto:kduong@confex.com Kim]<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Clients</u></b></span><br>
+<br>
+Christians clients currently include <span style="background:#AEE8F5">AGU, IAGLR, and NCC.</span><br>
+Other clients on Christians team (team 1) include <span style="background:#AEE8F5">AMS, Goldschmidt, and GSA.</span>
+<html></details></html>
+<!-- -->
+<!--TRAINING-->
+<html><details close class="details h2expand"><summary style="background-color:#FFFFFF;></html> 
+<span style="color:#3CB371; background:#98FB98; font-size: xx-large"><b>Training</b></span>
+<html></summary></html><br>
+<span style="color:#000080; font-size: x-large"><b><u>Contents in Training:</u></b></span><br>
+<br>
+<!-- TABLE OF CONTENTS -->
+<span style="color:#FF6347">'''Click any link below to go to that section in the Training tab:'''</span>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=a%20new%20meeting-,Training%20Modules%20Quick%20Access%3A,-Introduction%20to%20Confex <span style="color:#6A5ACD">Training Modules Quick Access]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=Great%20Balancing%20Act-,Creating%20a%20new%20meeting%3A,-1.%20On%20INT <span style="color:#6A5ACD">Creating a new meeting]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=Session%27%20and%20%27Paper%27)-,HTML%20Example%3A,-Helpful%20Information%20for <span style="color:#6A5ACD">HTML Example]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=HTML%20Example%3A-,Redmines%3A,-Task%20Structure%3A <span style="color:#6A5ACD">Redmines]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=Helpful%20Information%20for%20Teching%3A <span style="color:#6A5ACD">Helpful Information for Teching]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=Accessing%20Speaker%20Center%3A <span style="color:#6A5ACD">Accessing Speaker Center]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=Navigating%20Speaker%20Center%3A <span style="color:#6A5ACD">Navigating Speaker Center]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=training%5Cextra%5CGeneralInfo-,SQL%20Clauses%3A,-SELECT%20%2D%20extracts%20data <span style="color:#6A5ACD">SQL Clauses]</span><br>
+*[https://powwow.int.confex.com/doc/Wiki/Christian#:~:text=deletes%20an%20index-,Report%20Center%3A,-Report%20Center%20can <span style="color:#6A5ACD">Report Center]</span><br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Training Modules Quick Access:</u></b></span><br>
+<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Introduction/ <span style="color:#6495ed">Introduction to Confex]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Foundations/ <span style="color:#6495ed">Foundations]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Meeting_Cycle/ <span style="color:#6495ed">The Client Meeting Cycle]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_The_User_Perspective/ <span style="color:#6495ed">The User Perspective]<br> 
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Redmine/ <span style="color:#6495ed">Redmines]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Meeting_Setup/ <span style="color:#6495ed">Meeting Setup (Basics)]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_Application_Configuration_Tool/ <span style="color:#6495ed">Application Configurations]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_Meeting_Setup_2/ <span style="color:#6495ed">Meeting Setup (Part 2)]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Templates/ <span style="color:#6495ed">Templates]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Searches_and_Managing_Data/ <span style="color:#6495ed">Searches and Managing Data]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_Email/ <span style="color:#6495ed">Email]<br> 
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Helpful_Tools/ <span style="color:#6495ed">Helpful Tools]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Review/ <span style="color:#6495ed">Review]<br> 
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Scheduling/ <span style="color:#6495ed">Scheduling]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Data_and_Reporting/ <span style="color:#6495ed">Databases and Reports]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_Testing_and_Troubleshooting/ <span style="color:#6495ed">Testing and Troubleshooting]<br>[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Feedback_and_Phones/ <span style="color:#6495ed">Feedback and Phones]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Meeting_Setup_3/ <span style="color:#6495ed">Meeting Setup (Part 3)]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_Managing_Meeting_Cycles_and_SOWs/ <span style="color:#6495ed">Managing Meeting Cycles and SOWs]<br>[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Speaker_and_Entry_Information_Collection/ <span style="color:#6495ed">Speaker and Entry Information Collection]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_EPosters/ <span style="color:#6495ed">EPosters]<br> 
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_MeetingApp/ <span style="color:#6495ed">MeetingApp]<br> 
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Confex_Teams/ <span style="color:#6495ed">Confex Teams]<br>
+[https://powwow.int.confex.com/doc/Wiki/Training_Module:_Virtual_Meetings/ <span style="color:#6495ed">Podium Team and Virtual Meeting Collaborations]<br> [https://powwow.int.confex.com/doc/Wiki/Training_Module:_The_Great_Balancing_Act/ <span style="color:#6495ed">The Great Balancing Act]<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Creating a new meeting:</u></b></span><br>
+<br>
+<p>1. On INT, click any meeting and go to 'CONFEX MENU'<br>
+2. Click on 'Set Up/Add Meeting'<br>
+3. Select 'Create New Meeting' and click 'login'<br>
+4. Enter meeting title, meeting code, meeting password, and time zone, then click submit<br> 
+5. Go to 'CONFEX MENU' and click 'Add a Program'<br>
+6. Enter the program code and title, repeat for all programs requested by the client<br>
+7. Go to 'CONFEX MENU' and click 'Steps Administration'<br>
+ (make sure 'Steps For:' is set to 'Paper')<br>
+ (click the 'here' link underlined in the 'currently editing' box)<br> 
+8. Create the steps needed for the meeting<br>
+9. After 'Paper' steps are completed, change 'Steps For:' to 'Session' and enter the steps needed for the meeting<br>
+ (either by entering manually or cloning a previous meetings steps)<br>
+10. Go to 'CONFEX MENU' and click on 'Form Editor'<br>
+ (make sure to select 'Create New Form' for the first time in Form Editor)<br>
+11. Under 'Name:,' enter 'TitleStep.' Under 'Record Type:,' enter 'Session.' Under 'Form Scope:,' enter 'Meeting.' Select your meetings name in the drop-down box, then click 'save form'<br>
+12. In 'Form Properties,' drag and drop all the information the client wants collected on the 'Title' page<br>
+ (click on the sticky note icon to customize any step entered on the title page)<br>
+13. When your 'Title' page is complete, go back to staff page. Click on one of the meetings you created earlier, then click 'Submit.' Under the 'Sessions' tab, click 'Add.' This will allow you to view your 'Title' page<br>
+ (if you would like to view this page as the client, change the 'password=' in the URL to their email)<br>
+14. After viewing the 'Title' page, return to 'CONFEX MENU' and go back to 'Form Editor.' Create a new form, and name the form 'TitleStep,' but this time set the 'Record Tale:' to 'Paper.' The 'Form Scope:' is still 'Meeting,' and you still want to select your meeting. Then, click 'Save Form.'<br>
+15. Go to 'Form Properties' and drag and drop all of the information the client wants again on the 'Title' page, then click save when finished.<br>
+ (after this step, you will have a 'Title' page in both 'Session' and 'Paper')<br>
+</p>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>HTML Example:</u></b></span><br>
+<br>
+[[Image:Html.PNG]]
+<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Redmines:</u></b></span><br>
+<br>
+<span style="color:#4682B4; font-size: large"><b>Task Structure:</b></span><br>
+<b>When entering a task, follow the format below:</b><br>
+<br>
+'''SUMMARY'''<br>
+Briefly describe the functionality you need or the problem you are seeing and how you expect it to be resolved. Be specific and concise.<br>
+'''URLs'''<br>
+Include any relevant URLs (int links).  If it its a Bug, ensure the developer can re-produce.<br>
+'''TESTING EXPECTATIONS'''<br>
+Describe how you plan to test this task. This can be brief or in the case of more complicated tasks, you should describe in detail all the scenarios and conditions that need to be tested.<br>
+When finished, how would you expect to test that everything is working properly? What would you do, and what would you expect to see?<br>
+These are not final testing notes. Developers are still required to write their own testing notes, and if they are not clear, request better ones.<br>
+'''BACKGROUND'''<br>
+Optional. If you think it would be useful to provide more context, or describe in detail what needs to be fixed/created, please do so here. This can be particularly useful in the future when trying to remember why we implemented something the way we did.<br>
+'''JUSTIFICATION'''<br>
+If this is a P1 or an urgent P2 (due before the next Task Review meeting), please explain why this task is urgently needed.<br>
+<br>
+An example of this format can be seen [https://redmine.confex.com/issues/150984/ <span style="color:#6495ed">here].<br>
+<br>
+<span style="color:#4682B4; font-size: large"><b>Proofing:</b></span><br>
+Proofing a task includes '''SR1''' (Support Review 1) and '''SR2''' (Support Review 2).<br>
+<ul>
+<li>SR1 should ensure the task meets the guidelines in the Task Structure section above, as well as proof for content/clarity, and make suggestions as needed.</li> 
+<li>SR2 should double check the Task Structure, proof for content/clarity, ensure the task meets the needs of the client, the team, and Confex on the whole, as well as offer alternate suggestions to accomplish the goal of the task that the author/retester might be unaware of.</li>
+</ul><br>
+<span style="color:#000080; font-size: x-large"><b><u>Helpful Information for Teching:</u></b></span><br>
+<br>
+<span style="color:#4682B4"><b>45 Minutes Prior to the Meeting:</b></span><br>
+<p>1. Let the Team Lead know you're ready to begin<br>
+(client-tech channel)<br>
+2. Review notes about conference, session information, moderator information, and any updates in Discord<br>
+3. Review sessions information displayed on MeetingApp</p>
+<span style="color:#4682B4"><b>30 Minutes Prior to the Meeting:</b></span><br>
+<p>1. Open zoom session links<br>
+2. Rename self<br>
+(Confex Tech Support: Christian OR Christian: Confex Tech Support)<br>
+3. Open chat &amp; participants windows<br>
+4. Enable live transcript and waiting room<br>
+5. Chat everyone publicly and directly<br>
+6. Announce on Discord what sessions are open<br>
+(client-general channel)</p>
+<span style="color:#4682B4"><b>20 Minutes Prior to the Meeting:</b></span><br>
+<p>1. Greet moderators when they arrive in the session<br>
+2. Turn your camera on and introduce yourself<br>
+3. Promote moderator to co-host<br>
+4. Ask the moderator if they have any questions about moderating with us today<br>
+5. Ask the moderator if they'd like to practice sharing their screen<br>
+6. Remind moderator to work with the presenters to test their mic, camera and shared screen<br>
+7. Remind moderator the best way to reach tech support is via chat<br>
+8. Files to share with mod</p>
+<span style="color:#4682B4"><b>10 Minutes Prior to the Meeting:</b></span>
+<p>1. Post in Discord if moderators haven't arrived </p>
+<span style="color:#4682B4"><b>Start Time:</b></span><br>
+<p>1. Turn off waiting room</p>
+<span style="color:#4682B4"><b>2 Minutes After the Meeting Starts:</b></span><br>
+<p>1. Chat welcome note to everyone<br>
+(Hello! My name is Christian, and I will be your Confex Tech Support today. I am here to assist with any technical issues you may have during this session. Send me a private message via chat, and I will be happy to help. Please keep your mic OFF during this session unless otherwise directed, and use the chat feature to communicate with the presenters or other attendees. To operate live transcription, you can click “Live Transcript” at the bottom of your screen and choose “hide/view subtitles.” Have a great session!)</p>
+<span style="color:#4682B4"><b>15 Minutes Before the Meeting Ends:</b></span><br>
+<p>1. Chat 15 minute warning to moderator<br>
+(Hi! Just a quick reminder that this session is scheduled to end in 15 minutes)</p>
+<span style="color:#4682B4"><b>5 Minutes Before the Meeting Ends:</b></span><br>
+<p>1. Chat 5 minute warning to moderator<br>
+(Hello! I want to let you know that there are 5 minutes left of this session.)</p>
+<span style="color:#4682B4"><b>Session End:</b></span><br>
+<p>1. Complete feedback form</p>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Accessing Speaker Center:</u></b></span><br>
+<br>
+<p>1. Access your meeting from [https://training.confex.com/training/meetinglist.cgi?password=cookie <span style="color:#6495ed">this page</span>]<br>
+2. On the "Home / Search" tab, at the bottom right, click on "Search for a Person by name"<br>
+3. Enter either the last name or the email of the submitter<br>
+4. Once you click enter, you will be able to see the submitters full name, email, ID, password, and so on. Under the "Wait-Listed" tab, you will see "SC." Click on the "SC" link.<br> 
+5. After "SC" is clicked, you will be accessing Speaker Center</p>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Navigating Speaker Center:</u></b></span><br>
+<br>
+<p>Once you are in the Speaker Center, you will be able to see the "Welcome to Speaker Center" screen. This template is editable, and can be found at \\192.168.3.11\0abstract\templates\training\extra\GeneralInfo</p>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>SQL Clauses:</u></b></span><br>
+<br>
+<p><span style="color:#4682B4"><b>SELECT</b></span> - extracts data from a database<br>
+<span style="color:#4682B4"><b>UPDATE</b></span> - updates data in a database<br>
+<span style="color:#4682B4"><b>DELETE</b></span> - deletes data from a database<br>
+<span style="color:#4682B4"><b>INSERT INTO</b></span> - inserts new data into a database<br>
+<span style="color:#4682B4"><b>CREATE DATABASE</b></span> - creates a new database<br>
+<span style="color:#4682B4"><b>ALTER DATABASE</b></span> - modifies a database<br>
+<span style="color:#4682B4"><b>CREATE TABLE</b></span> - creates a new table<br>
+<span style="color:#4682B4"><b>ALTER TABLE</b></span> - modifies a table<br>
+<span style="color:#4682B4"><b>DROP TABLE</b></span> - deletes a table<br>
+<span style="color:#4682B4"><b>CREATE INDEX</b></span> - creates an index (search key)<br>
+<span style="color:#4682B4"><b>DROP INDEX</b></span> - deletes an index</p>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>Report Center:</u></b></span><br>
+<br>
+Report Center can be accessed from the 'Reports' tab on your clients meeting page.<br>
+Clicking the red button that says "Click here to select a program" will allow you to view reports for ''' only ''' the program you select.<br>
+Putting a '#' in front of a line will omit the line from the code in the report, which is easier than deleting the line, in case you ever need to add it back to the report.<br>
+<ul>
+<li>A helpful guide to report center links can be found [https://powwow.int.confex.com/doc/Wiki/ReportCenter_Templates#Formats_-_Hyperlinks/ <span style="color:#6495ed">here].
+<li>A helpful guide to understand basic queries in MySQL can be found [https://powwow.int.confex.com/doc/Wiki/MySQL/ <span style="color:#6495ed">here].
+<li>A more advanced guide to ReportCenter templates can be found [https://powwow.int.confex.com/doc/Wiki/ReportCenterTemplates/ <span style="color:#6495ed">here].
+<html></details></html>
+
+<!-- AGU -->
+<html><details close class="details h2expand"><summary style="background-color:#FFFFFF;></html> 
+<span style="color:#3CB371; background:#98FB98; font-size: xx-large"><b>AGU</b></span>
+<html></summary></html><br>
+<span style="color:#000080; font-size: x-large"><b><u>Quick links to documents for AGU:</u></b></span><br>
+<br>
+[https://agu.confex.com/agu/fm22/meetinglist.cgi?password=*cookie/ <span style="color:#6495ed">AGU meetings]<br>
+[https://docs.google.com/spreadsheets/d/1hMMOL2OcN5xskRaEW7DJGbTskwv45ccHn4rkL-R0lgU/edit#gid=1894902719/ <span style="color:#6495ed">AGU weekly meeting notes]<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>AGU Contact Information:</u></b></span><br>
+<br>
+<span style="background:#AEE8F5"><b>AGU Meetings Department:</b></span><br>
+*[mailto:abocian@agu.org Amy]<br>
+*[mailto:noliphant@agu.org Nicole]<br>
+*[mailto:jcolleton@agu.org Jim]<br>
+*[mailto:jjoo@agu.org Justine]<br>
+*[mailto:landerson@agu.org Leslie]<br>
+<span style="background:#AEE8F5"><b>AGU Logistics Department:</b></span><br>
+*[mailto:ddejacques@agu.org Debbie]<br>
+*[mailto:jharrison@agu.org Jamea]<br>
+*[mailto:sdavison@agu.org Susanne]<br>
+<span style="background:#AEE8F5"><b>3rd Party Vendor:</b></span><br>
+*[mailto:kaitlin.blackborow@maritz.com Kaitlin]<br>
+<html></details></html>
+
+<!-- IAGLR -->
+<html><details close class="details h2expand"><summary style="background-color:#FFFFFF;></html> 
+<span style="color:#3CB371; background:#98FB98; font-size: xx-large"><b>IAGLR</b></span>
+<html></summary></html><br>
+<span style="color:#000080; font-size: x-large"><b><u>About IAGLR:</u></b></span><br>
+<br>
+IAGLR is one of Christians clients. The introduction meeting took place in September 2022.<br>
+The IAGLR meeting page can be found [https://iaglr.confex.com/iaglr/meetinglist.cgi?password=*cookie/ <span style="color:#6495ed">here.]<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>IAGLR Contact Information:</u></b></span><br>
+<br>
+<span style="background:#AEE8F5"><b>IAGLR Contacts:</b></span><br>
+*[mailto:mcintyre@iaglr.org Paula]<br>
+*[mailto:iaglr@chartermi.net Wendy]<br>
+*[mailto:maryginnebaugh@sbcglobal.net Mary]<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>IAGLR Statuses:</u></b></span><br>
+<br>
+<span style="background:#AEE8F5">Update 10/19/2022:</span><br>
+IAGLR has begun accepting sessions. They will be submitted via [https://iaglr.confex.com/iaglr/2023/cfs.cgi/ <span style="color:#6495ed">the Call for Sessions] page.<br>
+The advertised deadline for session submissions is 11/11/2022, and the hard deadline is 11/14/2022.<br>
+IAGLR staff are being given staff access currently. Waiting to hear back from Paula, so IAGLR staff can meet with Confex to see their privileges.<br>
+<br>
+<span style="background:#AEE8F5">Update 11/09/2022:</span><br>
+IAGLR is beginning to set up the Call for Papers. For more information on the status, the tasks can be seen [https://redmine.confex.com/issues/174907/ <span style="color:#6495ed">here] and [https://redmine.confex.com/issues/174949/ <span style="color:#6495ed">here].<br>
+IAGLR will begin accepting abstracts on December 6th.<br>
+<br>
+<span style="background:#AEE8F5">Update 11/17/2022:</span><br>
+Wendy and Malerie are touching base discussing the Store set up for IAGLRs abstracts.<br>
+You can access [https://powwow.int.confex.com/doc/Wiki/Confex_Store/ <span style="color:#6495ed">this] wiki to see how Store is set up in Confex.<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>IAGLR Documents:</u></b></span><br>
+<br>
+[https://iaglr.confex.com/iaglr/f/IAGLRStylesheet/ <span style="color:#6495ed">IAGLR stylesheet]<br>
+[https://iaglr.confex.com/iaglr/f/IAGLRLogo/ <span style="color:#6495ed">IAGLR logo]<br>
+<br> 
+<html></details></html>
+
+<!--NCC-->
+<html><details close class="details h2expand"><summary style="background-color:#FFFFFF;></html> 
+<span style="color:#3CB371; background:#98FB98; font-size: xx-large"><b>NCC</b></span>
+<html></summary></html><br>
+<span style="color:#000080; font-size: x-large"><b><u>About NCC:</u></b></span><br>
+<br>
+The National Cotton Council of America (NCC) is Christians newest client. <br>
+A wiki with information regarding NCC can be found [https://powwow.int.confex.com/doc/Wiki/NCC/ <span style="color:#6495ed">here].<br>
+The staff page for NCC can be found [https://ncc.confex.com/ncc/2023/staff.cgi?password=*cookie/ <span style="color:#6495ed">here].<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>NCC Contact Information:</u></b></span><br>
+<br>
+<span style="background:#AEE8F5"><b>NCC Contacts:</b></span><br>
+*[mailto:mhuffman@cotton.org Michelle]<br>
+<br>
+<span style="color:#000080; font-size: x-large"><b><u>NCC Statuses:</u></b></span><br>
+<br>
+<span style="background:#AEE8F5">Update 10/19/2022:</span><br>
+Team 1 had their first introduction meeting with Michelle Huffman. 
+<html></details></html>
+
+<!--Christians tab-->
+<html><details close class="details h2expand"><summary style="background-color:#FFFFFF;></html> 
+<span style="color:#3CB371; background:#98FB98; font-size: xx-large"><b>Christian</b></span>
+<html></summary></html><br>
+<span style="color:#000080; font-size: x-large"><b><u>Current Redmines:</u></b></span><br>
+<br>
+<span style="color:#000080; font-size: large"><b>AGU:</b></span><br>
+*[https://redmine.confex.com/issues/174303/ <span style="color:#6495ed">Implement Ability for Users to Schedule Their Own Sessions on AGU] (awaiting info)<br>
+*[https://redmine.confex.com/issues/174483/ <span style="color:#6495ed">Apply Color and Styles to OVS23 Meeting] (passed)<br>
+*[https://redmine.confex.com/issues/174274/ <span style="color:#6495ed">Fix Logo on Acceptance Letters] (passed)<br>
+*[https://redmine.confex.com/issues/174016/ <span style="color:#6495ed">Fix 'Abstract Details' Acknowledgement Box] (passed)<br>
+*[https://redmine.confex.com/issues/174963/ <span style="color:#6495ed">OVS23 Reviewer Report] (passed)<br>
+<br>
+<span style="color:#000080; font-size: large"><b>IAGLR:</b></span><br>
+*[https://redmine.confex.com/issues/174806/ <span style="color:#6495ed">Create Report for Paula] (passed)<br>
+*[https://redmine.confex.com/issues/174949/ <span style="color:#6495ed">Set Up Call for Papers] (closed)<br>
+*[https://redmine.confex.com/issues/174907/ <span style="color:#6495ed">Add Fields for Call for Papers] (awaiting info)<br>
+*[https://redmine.confex.com/issues/174992/ <span style="color:#6495ed">Call for Papers Layout Changes] (passed)<br>
+*[https://redmine.confex.com/issues/175064/ <span style="color:#6495ed">Spacing Fix on the IAGLR 2023 Abstract Confirmation Step] (media review)<br>
+*[https://redmine.confex.com/issues/175066/ <span style="color:#6495ed">Create IAGLR Registration Site] (new)<br>
+*[https://redmine.confex.com/issues/175068/ <span style="color:#6495ed">Add Store for IAGLR Abstract Submissions] (new)<br>
+<br>
+<span style="color:#000080; font-size: large"><b>NCC:</b></span><br>
+*[https://redmine.confex.com/issues/175011/ <span style="color:#6495ed">Podium Release 2023] (awaiting info)<br>
+*[https://redmine.confex.com/issues/175012/ <span style="color:#6495ed">Podium Graphics 2023] (on hold)<br>
+<html></details></html>
