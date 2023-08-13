@@ -1,2 +1,2 @@
 # MyProjects
-A repository comprised of all my work and contributions
+A repository comprised of all my work and contributions.
