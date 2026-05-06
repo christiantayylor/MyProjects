@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editExcursionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Excursion Title" />
+
+    <EditText
+        android:id="@+id/editExcursionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Excursion Date"
+        android:focusable="false"
+        android:onClick="selectDate" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Excursion"
+        android:onClick="addExcursion" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewExcursions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

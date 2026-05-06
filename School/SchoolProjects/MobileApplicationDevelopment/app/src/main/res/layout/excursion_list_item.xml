@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/list_item_background"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/txtExcursionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excursion Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtExcursionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excursion Date"
+        android:textSize="14sp"
+        android:textColor="@color/darkGray"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
